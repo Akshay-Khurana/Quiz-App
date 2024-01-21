@@ -1,0 +1,103 @@
+.login-title{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Jomhuria';
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+    top:2rem;
+}
+
+.login-signup{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 30px 0px #00000026;
+    border-radius: 15px;
+    margin : 3rem;
+    height: 80vh;
+}
+
+.loginsignup-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.signup-btn{
+    margin-right: 1.5rem;
+    padding:0.4rem 1.8rem;
+    border-radius: 10px;
+    width: 124px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-btn{
+    margin-left:1.5rem;
+    padding:0.4rem 1.8rem;
+    border-radius: 10px;
+    width: 124px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: white;
+    box-shadow:  0px 0px 20px 18px #4e95e226;
+}
+
+.flex-row-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.flex-col-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-row-container label {
+    min-width: 145px;
+    margin-right: 3rem; 
+    text-align: right; 
+}
+
+input {
+    border:none;
+    background-color: #F2F2F2;
+    border-top-left-radius : 0.4rem;
+    border-top-right-radius : 0.4rem;
+    width:300px;
+    padding : 0.6rem;
+    font-size : 1.2rem;
+    position: relative;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.flex-row-container input.error {
+    border:2px solid red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    display: block;
+  }
+
+  input::placeholder{
+    color : red;
+  }
+
+.submit-btn{
+    background-color:#A9BCFF;
+    border:none;
+    padding : 0.5rem;
+    width:200px;
+    border-radius: 8px;
+}
